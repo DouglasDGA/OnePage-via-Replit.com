@@ -168,30 +168,31 @@ table{
 }
 
 aside{
-  display: inline-flex; 
+  display: flex; 
   flex-direction: row;  
   align-content: center;
 }
 
 div.left, div.right{
   padding: 1mm;
-  display: inline-block;
+  display: inline-flex;
   flex-direction: row; 
-  justify-content: flex-start;
-  align-content: flex-end;
-  flex: auto; 
-  padding-inline: flex;
   flex-wrap: wrap;
 }
 
-div.div1, div.div2{
+div.left1{
   padding: 1mm;
-  display: inline-block;
   flex-direction: row; 
-  justify-content: flex-start;
-  align-content: flex-end;
-  flex: auto; 
-  padding-inline: flex;
+  flex-wrap: wrap;
+}
+
+div.right1{
+  flex-wrap: wrap;
+  display: flex;
+}
+
+aside.conter{
+  display: inline-flexflex;
   flex-wrap: wrap;
 }
 
